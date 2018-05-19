@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+//定义字体大小
+$fontSize12: 12px;
+$fontSize14: 14px;
+$fontSize16: 16px;
+$fontSize18: 18px;
+$fontSize20: 20px;
+
+//定义颜色
+body {
+  background-color: red;
+  font-size: $fontSize16;
+}

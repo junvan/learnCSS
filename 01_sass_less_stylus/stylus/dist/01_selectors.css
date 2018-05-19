@@ -1,0 +1,19 @@
+body {
+  color: #666;
+  background-color: #fff;
+}
+input {
+  border: 1px solid #f00;
+}
+p {
+  width: 400px;
+  border: 1px solid #333;
+}
+li p,
+li > input {
+  border-color: #b84cff;
+}
+li p:hover,
+li > input:hover {
+  background-color: #ff0;
+}
