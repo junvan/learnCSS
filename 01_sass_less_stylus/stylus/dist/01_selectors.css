@@ -1,19 +1,10 @@
+html,
 body {
-  color: #666;
-  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
-input {
-  border: 1px solid #f00;
-}
-p {
-  width: 400px;
-  border: 1px solid #333;
-}
-li p,
-li > input {
-  border-color: #b84cff;
-}
-li p:hover,
-li > input:hover {
-  background-color: #ff0;
+a.btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }

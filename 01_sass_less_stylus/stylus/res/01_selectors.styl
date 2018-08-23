@@ -1,21 +1,21 @@
-//form input,
-//div > a
-//  border 1px solid #999
+html, body
+  margin 0
+  padding 0
 
-body
-  color #666
-  background-color #fff
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
 
-input
-  border 1px solid red
+a.btn
+  border-radius 5px
 
-p
-  width 400px
-  border 1px solid #333
 
-li p,
-li > input
-  border-color #b84cff
-  &:hover
-    background-color yellow
+//tesseract https://germey.gitbooks.io/python3webspider/content/assets/1-23.jpg result -l eng && cat result.txt
+//  https://germey.gitbooks.io/python3webspider/content/assets/1-23.jpg
 
+
+import tesserocr
+from PIL import Image
+image = Image.open('1-22.jpg')
+print(tesserocr.image_to_text(image))
